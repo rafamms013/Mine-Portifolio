@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+
+    <title>Portifólio</title>
+  </head>
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img
+          src="./src/img/Screenshot_20211223-164505_(1).png"
+          width="96px"
+          height="96px"
+          alt="foto de perfil"
+        />
+        <h1 class="nome">Rafael Montenegro</h1>
+        <h2 class="cargo">
+          Estudante de Tecnologia em Análises e Desenvolvimento de Sistemas
+        </h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/img/sobre.gif" alt="ícone de sobre mim" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./src/img/coracao.gif" alt="ícone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>
+                Hello World! meu nome é Rafael Montenegro, seja bem-vindo(a)!
+              </p>
+
+              <p>
+                Sou uma pessoa que gosta de conteúdos da Área de Tecnologia,
+                Informática e programação. Atualmente estudando sobre
+                <span>HTML, CSS, JavaScript, Java, Asp.Net, C#.</span>. Gosto
+                muito de café, e meus principais hobbies são andar de bicicleta,
+                tocar violão e assistir um filme ou séries.
+              </p>
+            </div>
+          </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas redes</h3>
+
+            <ul class="redes-sociais">
+              <li>
+                <a
+                  href="https://lattes.cnpq.br/3505816926445105"
+                  target="_blank"
+                  class="curriculo"
+                  >Currículo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/rafael-montenegro-marques-da-silva/"
+                  target="_blank"
+                  class="linkedin"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/rafamms013"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

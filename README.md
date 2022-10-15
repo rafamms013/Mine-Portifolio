@@ -8,7 +8,7 @@ máximo para está aprimorando meus conhecimentos em HTML, CSS e JavaScript dese
 
 ## Link do Projeto
 
-https://rafamms013.github.io/Mine-Portifolio/
+🔗https://rafamms013.github.io/Mine-Portifolio/
 
 ## Tecnologias usadas:
 
